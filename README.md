@@ -1,4 +1,4 @@
-# Soma-de-Array
+
 # INTEGRANTES: Amanda  Carvalho de Souza ; Matheus Italo Ericeira França ; Pedro Elizaldo Ferreira
 
 # TDD - Engenharia de Software
