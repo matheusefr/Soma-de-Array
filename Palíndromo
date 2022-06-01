@@ -1,0 +1,5 @@
+sentence = input("Digite uma frase ou palavra:")
+if(sentence == sentence[::-1]):
+  print("É palíndromo")
+else:
+  print("Não é palíndromo")
