@@ -1,6 +1,7 @@
-# Soma-de-
-INTEGRANTES: Amanda  Carvalho de Souza ; Matheus Italo Ericeira França ; Pedro Elizaldo Ferreira
-TDD - Engenharia de Software
+# Soma-de-Array
+# INTEGRANTES: Amanda  Carvalho de Souza ; Matheus Italo Ericeira França ; Pedro Elizaldo Ferreira
+
+# TDD - Engenharia de Software
 Essa tarefa tem como objetivo praticar o Desenvolvimento Orientado (ou Dirigido) a Testes (do inglês, Test Driven Development ) como parte do conteúdo programático da disciplina de Engenharia de Software.
 
 Para cada um dos problemas abaixo, sua criação de código para resolver ou problema é sua tarefa com uma suíte de testes unitários capaz de testar a solução. A suíte de testes deve ser fornecida de maneira.
