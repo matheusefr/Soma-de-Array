@@ -1,0 +1,27 @@
+linesAndCols = int(input("Insira a quantidade de linhas e colunas:"))
+matrix = []
+for i in range(linesAndCols):
+  line = []
+  for j in range(linesAndCols):
+    value = int(input("Linha {}, coluna {}:".format(i + 1,j + 1)))
+    line.append(value)
+  matrix.append(line)
+#itera as diagonais e calcula o módulo da diferença
+mainDiagonal = 1
+secondaryDiagonal = 1
+counter = 0
+mainProduct = 1
+#iterando a diagonal principal
+for i in range(linesAndCols):
+  mainProduct *= matrix[i][counter]
+  counter += 1
+print("Diagonal principal:{}".format(mainProduct))
+#iterando a diagonal secundári
+secondaryProduct = 1
+counter = linesAndCols - 1
+for i in range(linesAndCols):
+
+  secondaryProduct *= matrix[i][counter]
+  counter -= 1
+print("Diagonal secundária:{}".format(secondaryProduct))
+print("Módulo da diferença:{}".format(abs(mainProduct - secondaryProduct)))
