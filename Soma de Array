@@ -1,0 +1,14 @@
+array = []
+stop = True
+while stop != False:
+  value = int(input("Insira um valor:"))
+  array.append(value)
+  value = int(input("Insira um novo valor:"))
+  array.append(value)
+  value = int(input("Insira outro valor:"))
+  array.append(value)
+  stop = bool(int(input("Digite  0 Para calcular soma ")))
+sum = 0
+for value in array:
+  sum += value
+print("Soma dos valores na lista:{}".format(sum))
